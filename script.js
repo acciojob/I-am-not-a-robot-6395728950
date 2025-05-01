@@ -67,6 +67,6 @@
         para.textContent = 'We can\'t verify you as a human. You selected the non-identical tiles.';
 		   
       }
-      setTimeout(() => para.textContent = '', 2000);
+      // setTimeout(() => para.textContent = '', 2000);
       verifyBtn.style.display = 'none';
     };
