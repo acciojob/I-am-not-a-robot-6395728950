@@ -62,10 +62,10 @@
       const [first, second] = selected;
       if (first.dataset.src === second.dataset.src) {
         para.textContent = 'You are a human. Congratulations!';
-		  selected=[];
+		  
       } else {
         para.textContent = 'We can\'t verify you as a human. You selected the non-identical tiles.';
-		  selected=[];
+		   
       }
       setTimeout(() => para.textContent = '', 2000);
       verifyBtn.style.display = 'none';
